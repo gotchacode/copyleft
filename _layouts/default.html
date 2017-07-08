@@ -7,7 +7,7 @@
 
     <header class="masthead">
       <div class="masthead-inner">
-        <img src="/public/img/avatar.jpg" style="border-radius: 50%; width: 200px; height: 200px;">
+        <img src="{{ "/public/img/avatar.jpg" | prepend: site.baseurl }}" style="border-radius: 50%; width: 200px; height: 200px;">
         <a href="/"><h1>{{ site.title }}</h1></a>
         <p class="lead">{{ site.description }}</p>
          <div class="colophon">
@@ -40,6 +40,6 @@
     <div class="content container">
       {{ content }}
     </div>
-    <script async type="text/javascript" charset="utf-8" src="/public/js/ga.js"></script>
+    <script async type="text/javascript" charset="utf-8" src="{{ "/public/js/ga.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>
