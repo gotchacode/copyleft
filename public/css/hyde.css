@@ -471,10 +471,6 @@ background-size: 60px 178px; } }
 
 /* Red */
 
-.theme-base-08 {
-	background: url('/public/img/crossword.png');
-}
-
 .theme-base-08 .masthead {
   background-color: rebeccapurple;
 }
