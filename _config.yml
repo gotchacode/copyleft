@@ -1,6 +1,6 @@
 title:        Copyleft
 description:  'Hacker, Programmer'
-baseUrl: /copyleft
+baseurl: /copyleft
 url:          http://vinitkumar.me/copyleft
 version:      1.0.0
 author:
@@ -15,12 +15,12 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter: johndoe
   github: gotchacode
-  stackexchange: 
+  stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:  +gotchacode
 profile_image: 'https://avatars0.githubusercontent.com/u/537678?v=3&s=460'
 # Analytics and webmaster tools stuff goes here
-google_analytics: 
+google_analytics:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 gems: [jekyll-paginate]
