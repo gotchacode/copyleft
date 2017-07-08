@@ -13,16 +13,14 @@
          <div class="colophon">
           <ul class="colophon-links">
             <li>
-            <a href="/blog">Blogs</a>
+            <a href="{{ "/blog" | prepend: site.baseurl }}">Blogs</a>
             </li>
             <li>
-            <a href="/testimonials">Testimonials</a>
+            <li>
+            <a href="{{ "/archive" | prepend: site.baseurl }}">Archive</a>
             </li>
             <li>
-            <a href="/archive">Archive</a>
-            </li>
-            <li>
-                <a href="/public/resume.pdf">Resume</a>
+                <a href="{{ "/public/resume.pdf" | prepend: site.baseurl }}">Resume</a>
             </li>
             <li class="footer-icons" style="margin-top: 20px">
               <a href="http://github.com/gotchacode/"><i class="fa fa-github fa-2x" style="font-size: 1.5em"></i></a>
